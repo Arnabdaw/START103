@@ -61,15 +61,12 @@ public class Implementation
             }
             if(pos==0)
             {
-//                temp.next=head;
-//                head=temp;
                 insertAtBeg(val);
                 return ;
             }
             if(pos==size)
             {
-//                tail.next=temp;
-//                tail=temp;
+
                 insertAtEnd(val);
                 return ;
             }
